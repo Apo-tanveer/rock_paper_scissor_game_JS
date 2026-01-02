@@ -67,4 +67,4 @@ if(confirm("Do you want to play again")){
 }
 }
 
-play_game()
+play_game();
