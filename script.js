@@ -55,10 +55,10 @@ function play_game(){
 
  }
  if(Your_score>computer_score){
-    alert(`Congratulations! You won!!!\nYour score: ${Your_score} \nRobot's score: ${computer_score}`);
+    alert(`Congratulations! You won!!!\nYour's score: ${Your_score} \nRobot's score: ${computer_score}`);
  }
  else{
-    alert(`AWww! You lost :(\nYour score: ${Your_score} \nRobot's score: ${computer_score}`);
+    alert(`AWww! You lost :(\nYour's score: ${Your_score} \nRobot's score: ${computer_score}`);
  }
 if(confirm("Do you want to play again")){
     play_game();
